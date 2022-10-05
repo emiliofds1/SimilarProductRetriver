@@ -1,6 +1,8 @@
 package com.devtest.SimilarProductRetriver.infraestructure.dto;
 
-public class ProductDto {
+import java.io.Serializable;
+
+public class ProductDto implements Serializable {
 
     public String id;
 
@@ -9,7 +11,7 @@ public class ProductDto {
     public float price;
 
     public boolean availability;
-
+;
     public ProductDto(String id, String name, float price, boolean availability) {
         this.id = id;
         this.name = name;
