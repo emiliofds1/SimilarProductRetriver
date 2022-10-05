@@ -36,9 +36,7 @@ public class Product {
 
         private Boolean availability;
 
-        private Builder() {
-            super();
-        }
+        private Builder() {}
 
         public Builder withId(ProductId id) {
             this.id = id;

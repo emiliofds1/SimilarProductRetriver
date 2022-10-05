@@ -5,7 +5,7 @@ import com.devtest.SimilarProductRetriver.domain.entity.product.ProductId;
 
 import java.util.List;
 
-public interface SearchSimilarProductsService {
+public interface SimilarProductSearcher {
 
-    List<Product> searchSimilarProducts(ProductId id);
+    List<Product> search(ProductId id);
 }
