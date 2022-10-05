@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CapitolcodeTest.iml" filepath="$PROJECT_DIR$/.idea/CapitolcodeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimilarProductRetriver/SimilarProductRetriver.iml" filepath="$PROJECT_DIR$/SimilarProductRetriver/SimilarProductRetriver.iml" />
+    </modules>
+  </component>
+</project>
