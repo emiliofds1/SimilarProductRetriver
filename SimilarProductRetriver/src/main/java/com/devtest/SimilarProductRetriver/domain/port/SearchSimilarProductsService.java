@@ -5,7 +5,7 @@ import com.devtest.SimilarProductRetriver.domain.entity.product.ProductId;
 
 import java.util.List;
 
-public interface SearhSimilarProductsService {
+public interface SearchSimilarProductsService {
 
     List<Product> searchSimilarProducts(ProductId id);
 }

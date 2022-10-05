@@ -32,7 +32,18 @@
             <artifactId>robovm-rt</artifactId>
             <version>2.3.12</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.1</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
