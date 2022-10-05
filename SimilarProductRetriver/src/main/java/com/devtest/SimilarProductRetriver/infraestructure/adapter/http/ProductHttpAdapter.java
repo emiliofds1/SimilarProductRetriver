@@ -35,7 +35,7 @@ public class ProductHttpAdapter {
             return ResponseEntity.ok(getSimilarProductDto(new ProductId(productId)));
         }
         catch (InvalidDomainException | ProductNotFoundException exception) {
-            return ResponseEntity.badRequest().header("Product not found").build();
+            return ResponseEntity.notFound().header("Product not found").build();
         }
 
     }
