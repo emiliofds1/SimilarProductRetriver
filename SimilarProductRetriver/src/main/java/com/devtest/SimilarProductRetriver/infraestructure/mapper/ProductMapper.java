@@ -9,10 +9,12 @@ import org.springframework.stereotype.Component;
 public class ProductMapper {
 
     public ProductDto map(Product product) {
-        return new ProductDto(product.getId().getValue(),
-                              product.getName(),
-                              product.getPrice(),
-                              product.getAvailability());
+        ProductDto dto = new ProductDto();
+        dto.id = product.getId().getValue();
+        dto.name = product.getName();
+        dto.price = product.getPrice();
+        dto.availability = product.getAvailability();
+        return dto;
     }
 
     public Product map(ProductDto dto) {

@@ -11,11 +11,5 @@ public class ProductDto implements Serializable {
     public float price;
 
     public boolean availability;
-;
-    public ProductDto(String id, String name, float price, boolean availability) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-        this.availability = availability;
-    }
+
 }

@@ -1,7 +1,7 @@
 package com.devtest.SimilarProductRetriver.domain.entity.product;
 
 import com.devtest.SimilarProductRetriver.domain.exception.InvalidDomainException;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 
 public class Product {
